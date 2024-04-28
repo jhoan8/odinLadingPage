@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #1f2937;
+  --font-color: #e5e7eb;
+  --secundary-background-color: #3882f6;
+  --font-secundary-color: #858585;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-color);
+  background-color: var(--background-color);
+  padding: 20px;
+  align-items: center;
+}
+nav ul li {
+  float: left;
+  margin-right: 20px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+.portada {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+.portada .info {
+  width: 600px;
+}
+.portada h2 {
+  font-size: 48px;
+}
+.portada p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.portada a {
+  background-color: var(--secundary-background-color);
+  color: var(--font-color);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.img {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--font-secundary-color);
+}
+.products {
+  text-align: center;
+}
+.products h3 {
+  font-size: 48px;
+  margin: 20px;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+
+  justify-content: center;
+}
+.card {
+  width: 200px;
+}
+.card-container .card .cardImg {
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--secundary-background-color);
+  border-radius: 5px;
+}
+.card p {
+  margin: 10px;
+  color: var(--font-secundary-color);
+}
+.slogan-container {
+  width: 700px;
+  margin: 200px auto;
+  text-align: justify;
+}
+.slogan-container p {
+  font-size: 36px;
+  font-family: "Bad Script", cursive;
+}
+.sign {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sign span {
+  font-weight: bold;
+}
+.signUp {
+  background-color: var(--secundary-background-color);
+  color: var(--font-color);
+  display: flex;
+  padding: 20px;
+  width: 850px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.signUp h4 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.signUp p {
+  font-size: 18px;
+}
+.signUp a {
+  color: var(--font-color);
+  padding: 5px 20px;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid var(--font-color);
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  background-color: var(--background-color);
+  width: 100%;
+  color: var(--font-color);
+  padding: 5px;
+}
